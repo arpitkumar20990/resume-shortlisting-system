@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jobseeker Profile</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Create / Edit Profile</h2>
+    <p>Logged in as: <span id="user-email"></span></p>
+
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Full Name" required />
+
+    <label>Location:</label>
+    <input type="text" id="location" placeholder="City" />
+
+    <label>Skills:</label>
+    <input type="text" id="skills" placeholder="e.g., Python, ML, SQL" />
+
+    <label>Experience:</label>
+    <select id="experience">
+      <option value="0-1">0-1 years</option>
+      <option value="1-3">1-3 years</option>
+      <option value="3-5">3-5 years</option>
+      <option value="5+">5+ years</option>
+    </select>
+
+    <label>Bio:</label>
+    <textarea id="bio" placeholder="Short bio or summary"></textarea>
+
+    <label>Upload Resume (PDF):</label>
+    <input type="file" id="resume-file" accept=".pdf" />
+
+    <button id="save-profile">Save Profile</button>
+    <button id="logout">Logout</button>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
