@@ -54,7 +54,7 @@ Follow these steps carefully 👇
 If downloaded as a ZIP, extract it.  
 Otherwise, clone from GitHub:
 ```bash
-git clone https://github.com/yourusername/resume-shortlisting-system.git
+git clone https://github.com/arpitkumar20990/resume-shortlisting-system.git
 cd resume-shortlisting-system
 ```
 
